@@ -9,90 +9,90 @@ The dataset contains 9,999 user records with demographic and behavioral attribut
 
 📂 Dataset Description
 
-The dataset includes the following features:
+--> The dataset includes the following features:
 
-age – User age
+--> age – User age
 
-monthly_income – Monthly income
+--> monthly_income – Monthly income
 
-website_visits – Number of visits to the platform
+--> website_visits – Number of visits to the platform
 
-time_spent_minutes – Time spent on website
+--> time_spent_minutes – Time spent on website
 
-previous_purchases – Number of prior purchases
+--> previous_purchases – Number of prior purchases
 
-is_student – Student status (0 = No, 1 = Yes)
+--> is_student – Student status (0 = No, 1 = Yes)
 
-country – User country
+--> country – User country
 
-device_type – Device used
+--> device_type – Device used
 
-purchased – Subscription status (0 = No, 1 = Yes)
+--> purchased – Subscription status (0 = No, 1 = Yes)
 
 🔧 Data Processing & Feature Engineering
 
 The project includes:
 
-Cleaning and standardizing categorical data
+-> Cleaning and standardizing categorical data
 
-Creating new features such as:
+-> Creating new features such as:
 
-annual_income
+   --> annual_income
 
-income_per_age
+   --> income_per_age
 
-total_engagement
+   --> total_engagement
 
-returning_customer
+   --> returning_customer
 
-high_engagement
+   --> high_engagement
 
-Renaming columns for clarity
+-> Renaming columns for clarity
 
-Generating behavioral flags for analysis
+-> Generating behavioral flags for analysis
 
 📈 Analysis Focus
 
-Understanding subscription conversion behavior
+-> Understanding subscription conversion behavior
 
-Studying the impact of engagement metrics
+-> Studying the impact of engagement metrics
 
-Evaluating demographic influence on purchases
+-> Evaluating demographic influence on purchases
 
-Preparing data for potential machine learning models
+-> Preparing data for potential machine learning models
 
 🛠 Technologies Used
 
-Python
+-> Python
 
-Pandas
+-> Pandas
 
-Jupyter Notebook
+-> Jupyter Notebook
 
-Git & GitHub
+-> Git & GitHub
 
 🚀 How to Run
 
-Clone the repository
+   1. Clone the repository
 
-Create a virtual environment (optional)
+   2. Create a virtual environment (optional)
 
-Install dependencies:
+   3. Install dependencies:
 
-pip install -r requirements.txt
+    #pip install -r requirements.txt    
 
 
-Open the notebook and run all cells
+   4. Open the notebook and run all cells
 
 📌 Future Improvements
 
-Apply classification models (Logistic Regression, Decision Tree)
+  -> Apply classification models (Logistic Regression, Decision Tree)
 
-Perform feature importance analysis
+  -> Perform feature importance analysis
 
-Add advanced visualizations
+  -> Add advanced visualizations
 
 👤 Author
 
-Created as a learning project to practice data analysis, feature engineering, and Git version control.
+  -> Created as a learning project to practice data analysis, feature engineering, and Git version control.
 
